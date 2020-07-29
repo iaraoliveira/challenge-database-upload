@@ -20,7 +20,7 @@ export default class AddCategoryIdToTransactions1595893686139 implements Migrati
                 referencedTableName: 'categories',
                 name: 'TransactionCategory',
                 onUpdate: 'CASCADE',
-                onDelete: 'SETNULL'
+                onDelete: 'SET NULL'
             })
         )
     }
